@@ -1,0 +1,170 @@
+.header {
+    width: 100%;
+    background: gray;
+    height: 100px;
+    display: flex;
+}
+
+#mainBtns {
+    display: flex;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    height: 40px;
+    width: 50px;
+    background: lightgray;
+}
+
+.style-block,
+.style-btns {
+    padding: 10px 40px 50px 40px;
+    margin: 15px 10px;
+    background: lightgray;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+}
+
+#text-block {
+    margin: 40px;
+}
+
+#edit {
+    padding: 0 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* text styles */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.stroke {
+    text-decoration: line-through;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.fontFamily,
+.size {
+    width: 15px;
+    height: 15px;
+    background: lightgray;
+    border: none;
+}
+
+#colors-style {
+    cursor: pointer;
+
+}
+
+/* color */
+
+.parts-item {
+    border: 2px solid white;
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+/* background images */
+.im {
+    border: 1px solid white;
+    float: left;
+    height: 100px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+/* sign form */
+
+.sign-style {
+    margin: 10px;
+    padding: 5px 130px;
+}
+
+#sign-btn {
+    background: gray;
+    padding: 8px 170px;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+}
+
+#lock {
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+/* edit block */
+.edit-block {
+    display: none;
+    margin: 0 auto;
+}
+
+#area-block {
+    display: none
+}
+
+#editArea {
+    resize: none;
+}
+
+.inptable-style {
+    margin: 10px;
+}
+
+.reset-btn {
+    background: red;
+    padding: 5px 70px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+}
+
+.create-libtn {
+    background: green;
+    padding: 5px 45px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+}
+
+.sizeli-input {
+    margin: 10px;
+    padding: 4px 110px;
+}
+
+/* validation inputs */
+input:required:invalid {
+    border: 2px solid red;
+}
+
+input:required:valid {
+    border: 2px solid green;
+}
